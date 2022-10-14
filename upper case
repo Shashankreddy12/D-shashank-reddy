@@ -1,0 +1,15 @@
+#include<iostream>
+#include<string>
+using namespace std;
+int main(){
+	string a;
+	int i;
+	cout<<"enter the string:";
+	cin>>a;
+	for(i=0;i<a.length();i++){
+		a[i]=toupper(a[i]);
+	}
+	cout<<"\n The given String in Lower Case:"<<a;
+	return 0;
+	
+}
